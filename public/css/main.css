@@ -94,3 +94,8 @@
         right: -50px;
         bottom: -30px;
     }
+
+    .small-date {
+        font-size: 0.8rem;
+        color: #3aa3ff; /* Bootstrap's muted color */
+    }
