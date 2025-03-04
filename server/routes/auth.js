@@ -12,6 +12,8 @@ passport.use(
       callbackURL: process.env.GOOGLE_CALLBACK_URL,
     },
     async function (accessToken, refreshToken, profile, done) {
+
+      console.log(profile)
       const newUser = {
         googleId: profile.id,
         displayName: profile.displayName,
